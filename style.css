@@ -1,0 +1,102 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(90, 178, 255, 0.5), rgba(104, 210, 232, 0.5)), url('https://i.pinimg.com/originals/59/10/72/59107202e7bdfed68d3687db6c59983c.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.judul {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    margin-bottom: 5rem;
+    font-family:cursive;
+    background-color:rgba(44, 78, 128, 0.8);
+    width: 55%;
+    margin-left: 12rem;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+.kalkulator {
+    background: rgba(44, 78, 128, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    backdrop-filter: blur(10px);
+}
+
+form {
+    flex: 1;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group #operator {
+    font-size: 18px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #fff;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 8px;
+    width: 100%;
+    padding: 12px;
+    background-color: #f09321;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #FFC55A;
+}
+
+.card {
+    margin-left: 20px;
+    margin-top: 5rem;
+    padding: 15px;
+    background-color: #ffd689;
+    border: 1px solid #c5c4c4;
+    border-radius: 4px;
+    width: 45%;
+    color: #000;
+    text-align: left;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    margin: 5px 0;
+}
